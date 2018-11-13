@@ -14,9 +14,14 @@ All Core libraries can be accessed via MyGet https://www.myget.org/feed/Packages
 
 
 
-## Ubuntu 16.04 LTS
 
-### LANDIS Core-Model-v7: Framework-dependent deployment (FDD)
+# Ubuntu 16.04 LTS
+
+
+
+## LANDIS Core-Model-v7: Framework-dependent deployment (FDD)
+
+
 
 1. .NET Core SDK Installation:
 
@@ -55,7 +60,7 @@ All Core libraries can be accessed via MyGet https://www.myget.org/feed/Packages
 
 
 
-##### Debug (VS Code launch.json)
+#### Debug (VS Code launch.json)
 
 * "program": "${workspaceFolder}/Tool-Console/src/bin/Debug/Landis.Console.dll"
   * *Make sure your Landis.Console.dll file path*
@@ -65,21 +70,25 @@ All Core libraries can be accessed via MyGet https://www.myget.org/feed/Packages
 
 
 
-### LANDIS-II-v7 Extensions
 
-##### Prerequisites
+
+## LANDIS-II-v7 Extensions
+
+#### Prerequisites
 
 * All LANDIS-II-v7 supporting libraries and extension DLL must be in `build/extensions` folder.
 * LANDIS-II-v7 Extensions information needs to be included in `build/extensions/extensions.xml`
 
-##### Running Scenario
+
+
+#### Running Scenario
 
 1. `cd <path to your scenario folder>/<your scenario>.txt` 
 2. `dotnet /<path to>/Landis.Console.dll scenario.txt`
 
 
 
-##### Expected GDAL Related Error
+#### Expected GDAL Related Error
 
 The problem might be GDAL related error if you see error below.
 
@@ -87,7 +96,7 @@ The problem might be GDAL related error if you see error below.
 
 
 
-**GDAL dependencies related error fix**
+#### **GDAL dependencies related error fix**
 
 1. `cd /<path to (e.g. home/yourname)>/.nuget/packages/gdal.core/1.0.0/runtimes/linux-x64/native`
 
@@ -105,7 +114,7 @@ The problem might be GDAL related error if you see error below.
 
 
 
-##### Compiling LANDIS-II-v7 Extensions
+#### Compiling LANDIS-II-v7 Extensions
 
 There are many ways to compile LANDIS-II-v7 Extensions.  This is one of the options.
 
@@ -149,7 +158,7 @@ Prerequisite: VS Code installation (see in Notes section)
 
 
 
-##### Add LANDIS-II-v7 Extension to extensions.xml
+#### Add LANDIS-II-v7 Extension to extensions.xml
 
 1. `cd <path to where extension information text file direcotry>`
 
@@ -160,9 +169,14 @@ Prerequisite: VS Code installation (see in Notes section)
    `dotnet /<path to>/Core-Model-v7-Linux/build/Release/Landis.Extensions.dll "remove" "<extensions name (e.g. Age-only Succession)"`
 
 
-### Notes
 
-##### Visual Studio Code
+
+
+## Notes
+
+
+
+#### Visual Studio Code
 
 Installation: 
 
@@ -172,13 +186,17 @@ Installation:
 
 Note:  You will need  C# for Visual Studio Code extension for application development.
 
-##### Installing PowerShell Core on Linux
+
+
+#### Installing PowerShell Core on Linux
 
 Installation: 
 
 * https://docs.microsoft.com/en-us/powershell/scripting/setup/installing-powershell-core-on-linux?view=powershell-6
 
-##### Powershell on VS Code
+
+
+#### Powershell on VS Code
 
 Prerequisite: PowerShell Core on Linux installation
 
