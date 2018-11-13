@@ -169,7 +169,7 @@ Prerequisite: VS Code installation (see in Notes section)
    `dotnet /<path to>/Core-Model-v7-Linux/build/Release/Landis.Extensions.dll "remove" "<extensions name (e.g. Age-only Succession)"`
 
 
-
+</br>
 
 
 ## Notes
