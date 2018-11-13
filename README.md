@@ -73,21 +73,21 @@ All Core libraries can be accessed via MyGet https://www.myget.org/feed/Packages
 
 
 ## LANDIS-II-v7 Extensions
-</br>
+
 #### Prerequisites
 
 * All LANDIS-II-v7 supporting libraries and extension DLL must be in `build/extensions` folder.
 * LANDIS-II-v7 Extensions information needs to be included in `build/extensions/extensions.xml`
 
 
-</br>
+
 #### Running Scenario
 
 1. `cd <path to your scenario folder>/<your scenario>.txt` 
 2. `dotnet /<path to>/Landis.Console.dll scenario.txt`
 
 
-</br>
+
 #### Expected GDAL Related Error
 
 The problem might be GDAL related error if you see error below.
@@ -95,7 +95,7 @@ The problem might be GDAL related error if you see error below.
 ![RasterFactoryError](./doc/imgs/rasterfactory_error.png)
 
 
-</br>
+
 #### **GDAL dependencies related error fix**
 
 1. `cd /<path to (e.g. home/yourname)>/.nuget/packages/gdal.core/1.0.0/runtimes/linux-x64/native`
@@ -113,7 +113,7 @@ The problem might be GDAL related error if you see error below.
    * `sudo apt-get install libpng16-16`
 
 
-</br>
+
 #### Compiling LANDIS-II-v7 Extensions
 
 There are many ways to compile LANDIS-II-v7 Extensions.  This is one of the options.
@@ -157,7 +157,7 @@ Prerequisite: VS Code installation (see in Notes section)
    *See `build/extensions` folder if all supporting libraries and extensions DLLs are created in the folder.*
 
 
-</br>
+
 #### Add LANDIS-II-v7 Extension to extensions.xml
 
 1. `cd <path to where extension information text file direcotry>`
@@ -171,10 +171,10 @@ Prerequisite: VS Code installation (see in Notes section)
 
 
 
-</br>
+
 ## Notes
 
-</br>
+
 
 #### Visual Studio Code
 
@@ -187,7 +187,7 @@ Installation:
 Note:  You will need  C# for Visual Studio Code extension for application development.
 
 
-</br>
+
 #### Installing PowerShell Core on Linux
 
 Installation: 
@@ -195,7 +195,7 @@ Installation:
 * https://docs.microsoft.com/en-us/powershell/scripting/setup/installing-powershell-core-on-linux?view=powershell-6
 
 
-</br>
+
 #### Powershell on VS Code
 
 Prerequisite: PowerShell Core on Linux installation
