@@ -11,6 +11,9 @@ This is the combined package and installer for the LANDIS-II 'Core'.  The Core a
 
 All Core libraries can be accessed via MyGet https://www.myget.org/feed/Packages/landis-ii-v7
 
+## Updates
+02.18.2019
+- Assembly name changed from "Landis.RasterIO.Gdal" to "Landis.RasterIO.Gdal.Linux".  The "Landis.RasterIO.Gdal.Linux (2.0.0)" uses [Gdal.Core (1.0.0)](https://www.nuget.org/packages/Gdal.Core/2.3.0-beta-023).  
 
 
 </br>
