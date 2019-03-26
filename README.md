@@ -165,11 +165,11 @@ Prerequisite: VS Code installation (see in Notes section)
 
 1. `cd <path to where extension information text file direcotry>`
 
-2. `dotnet /<path to>/Core-Model-v7-Linux/build/Release/Landis.Extensions.dll "add" "<extensions infomation>.txt"`
+2. `dotnet /<path to>/Core-Model-v7-Linux/build/Release/Landis.Extensions.dll add "<extensions infomation>.txt"`
 
    *To remove an extension:*
 
-   `dotnet /<path to>/Core-Model-v7-Linux/build/Release/Landis.Extensions.dll "remove" "<extensions name (e.g. Age-only Succession)"`
+   `dotnet /<path to>/Core-Model-v7-Linux/build/Release/Landis.Extensions.dll remove "<extensions name (e.g. Age-only Succession)"`
 
 
 </br>
